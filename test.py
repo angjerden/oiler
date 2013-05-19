@@ -5,18 +5,11 @@ from time import sleep
 default_timer = time.time
 t0 = default_timer()
 
-s = """20 30 40 50
-49 59 69 79"""
-
-
-arr = s.split("\n")
-arr1 = []
-line_counter = 0
-el_counter = 0
-for line in range(0, len(arr)):
-    arr1.insert(line_counter, arr[line_counter].split(" "))
-    line_counter += 1
-print arr1
+arr = [[]]
+arr[0].append('aa1')
+arr[0].append('aa2')
+arr.append([])
+arr[1].append('bb1')
 
 
 print default_timer() - t0
