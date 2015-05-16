@@ -9,4 +9,4 @@ for i in range(1, rangemax):
     elif i % 5 == 0:
         accumulated += i
 
-print accumulated
+print(accumulated)
